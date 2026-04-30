@@ -1,0 +1,37 @@
+---
+title: "Data acquisition and cleanup"
+author: "Bongani Mnyandli"
+date: "01/05/2026"
+format: html
+editor: visual
+---
+
+## data_acqusition
+
+The data consists of three files:
+
+1.  SummarisedExperiment object: An object containing counts, scaled counts, length-sclaed counts and abundances of RNAseq data. for Predict
+
+2.  Connecting data: A metadata set with information connecting pids to timepoints to sequencing names and batches etc.
+
+3.  A clinical dataset.
+
+```{r}
+
+# Summarized Experimental data
+gcs <- readRDS("C:/MSc.Molecular_Biology/my_masters_Project/data/comprnaseq_prdtonly_gene_cnt_scld_lenscld_abund_20250624.rds")
+
+# Clinical data
+clindat <- readRDS("C:/MSc.Molecular_Biology/my_masters_Project/data/Predict_clindat_final_14Aug25.rds")
+
+# Connecting data
+condat <- readRDS("C:/MSc.Molecular_Biology/my_masters_Project/data/n2s_clindat_touse_predict_alloutcs_30Jun25.rds")
+```
+
+You can add options to executable code like this
+
+```{r}
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
