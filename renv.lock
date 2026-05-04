@@ -667,7 +667,7 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.1.5",
+      "Version": "1.2.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project Environments",
@@ -685,6 +685,7 @@
         "compiler",
         "covr",
         "cpp11",
+        "curl",
         "devtools",
         "generics",
         "gitcreds",
@@ -708,7 +709,7 @@
         "webfakes"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "VignetteBuilder": "knitr",
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Config/testthat/edition": "3",
